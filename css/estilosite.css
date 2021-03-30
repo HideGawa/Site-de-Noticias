@@ -1,0 +1,188 @@
+
+/* geral */
+body {
+    background-image: url("../Imagens/Akali.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "open sans",Arial, Helvetica, sans-serif; 
+}
+
+p {
+    color: rgb(228, 226, 226);
+    font-size: 20px;
+}
+
+h1, h2, h3{
+    
+    margin: 0;
+    font-family: "roboto slab", Arial, Helvetica, sans-serif;
+
+}
+
+.botao{
+    background-color: rgba(10, 10, 10, 0.253);
+    color: #f1f1f1;
+    padding: 5px 5px;
+    font-size: .9em;
+    margin: 0;
+}
+
+
+/* navegaçao */
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(43, 43, 43, 0.63);
+    font-size: 30px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: pacifico ,serif;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/* cabeçalho e rodapé*/
+
+header{
+    background-image: url('../Imagens/lua.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+header p{
+    margin-bottom: 2em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    background-color: rgba(10, 10, 10, 0.733);
+    padding: 10px;
+}
+
+
+/* seçoes */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color:  rgba(7, 7, 7, 0.63);
+    color: #f1f1f1;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color:  rgba(7, 7, 7, 0.63);
+    color: #f1f1f1;
+    
+}
+
+#serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color:  rgba(20, 20, 20, 0.63);
+    color: #f1f1f1;
+  
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px){
+
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /* cabeçalho e rodapé */
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;        
+    }
+
+
+
+    /* section */
+
+    #sobre{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #serviços{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    #serviços h2{
+        text-align: center;
+        width: 100%;
+    }
+
+    #serviços div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+}
