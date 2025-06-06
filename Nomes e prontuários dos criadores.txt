@@ -1,6 +1,7 @@
-Desenvolvido por :
+Desenvolvido por:
+Wendell Cezar Chapinote  | Prontuário: JC3003043
+Breno Hideki Nakagawa    | Prontuário: JC3005216
+
+Estudantes de Análise e Desenvolvimento de Sistemas - Instituto Federal de São Paulo - IFSP, Campus Jacareí
 
 3º semestre
-
-Wendell Cezar Chapinote  | Prontuário: JC3003043
-Breno Nakagawa | Prontuário: JC 
